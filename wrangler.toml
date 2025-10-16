@@ -1,0 +1,10 @@
+name = "my-next-app"
+main = "dist/index.js"
+compatibility_date = "2025-10-16"
+
+[site]
+bucket = "./out"
+entry-point = "workers-site"
+
+[vars]
+NODE_ENV = "production"
